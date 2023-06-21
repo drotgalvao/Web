@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "name": "Drot",
+      "budget": "4651631",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 6334,
+      "services": [
+        {
+          "name": "Contratar Dev PHP",
+          "description": "Vai criar funções de envio de e-mails",
+          "cost": "500",
+          "id": "0e29fbfa-8d67-4740-9440-27105ebf9fdb"
+        },
+        {
+          "name": "Contratar Lucas",
+          "cost": "600",
+          "description": "Vai criar funções de envio de e-mails",
+          "id": "41130691-de03-4808-b1bb-989e2bdef779"
+        },
+        {
+          "name": "Diego",
+          "cost": "5234",
+          "description": "saghag",
+          "id": "9fd564c6-6928-498b-998a-80119d9b2595"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Diego Knight Ekos",
+      "budget": "65123",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Tulipa",
+      "budget": "1651653",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "De onde",
+      "budget": "164654",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Diego Henrique Moreira Galvão",
+      "budget": "50000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

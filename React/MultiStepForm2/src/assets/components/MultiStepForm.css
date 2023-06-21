@@ -1,0 +1,138 @@
+.multiStepForm {
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Forms */
+
+.form_container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.form_container form {
+    max-width: 528px;
+    margin: 0 auto;
+}
+
+.inputs_container {
+    min-height: 280px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+.form_control>label {
+    /* text-align: left; */
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.9rem;
+
+}
+
+input,
+textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;
+    width: 528px;
+    resize: none;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Actions */
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.actions.justify_content_end {
+    justify-content: flex-end;
+  }
+
+button {
+    background-color: #FFFFFF;
+}
+
+.actions button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 8px;
+    width: 158px;
+    height: 56px;
+    border: 1px solid #633BBC;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+
+}
+
+button.next {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 8px;
+    width: 212px;
+    height: 56px;
+    background: #633BBC;
+    border-radius: 6px;
+    border: 1px solid #633BBC;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    white-space: nowrap;
+}
+
+button span {
+    color: #633BBC;
+}
+
+.actions button:hover {
+    background-color: #a78ce0;
+}

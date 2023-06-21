@@ -1,0 +1,65 @@
+.steps {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 528px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.steps::after {
+    content:  "";
+    width: 528px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 80px;
+    margin-top: 5px;
+}
+
+.step {
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+    width: 120px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.step svg {
+    width: 28px;
+    height: 28px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active > svg {
+    fill: #1D8841;
+    margin-bottom: 10px;
+}
+
+.numero-circulo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #8D8D99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .active > .numero-circulo {
+    background-color: #633BBC;
+  }
+  
+  .numero {
+    color: white;
+    font-size: 13px;
+  }
